@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "gemini-testing.app",
-    "slug": "gemini-testing.app",
-    "version": "1.0.0",
+    "name": "Google Gemini Pro - Testing Only",
+    "slug": "geminitestingapp",
+    "version": "1.02.5-prototype",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "dark",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "id.paperdark.geminitestingapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "af7ee263-9fdf-4f6f-9ba7-7d44b74c8c92"
+      }
     }
   }
 }
